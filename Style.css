@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0A2647;
+
+}
+.clock-face{
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 3px white solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.hand{
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transform-origin: 100%;
+}
+.seconds-hand{
+    width: 45%;
+    left: 5%;
+}
+.mins-hand{
+    width: 48%;
+    left: 2%;
+    color: red;
+}
+.hours-hand{
+    width: 35%;
+    left: 15%;
+}
